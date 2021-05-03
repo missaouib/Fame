@@ -5,11 +5,9 @@
 ### 主要升级:
 
 * fame-server 服务 orm 框架`SpringDataJpa` -> `Mybatis-Plus`
-
 * fame-server `Article`、`Tag`、`Category` 数据模型关系优化
-
 * mysql 版本 `5.7.x` -> `8.0.x`
-
+* fame-admin markdown 编辑器改用 [tui-editor](https://ui.toast.com/tui-editor)
 * 相关依赖版本升级
 
 ### 升级事项
@@ -163,7 +161,6 @@ where (LOG_TYPE = 'POST' or LOG_TYPE = 'NOTE');
 -- alter table comment drop column status;
 
 ```
-
 
 
 
