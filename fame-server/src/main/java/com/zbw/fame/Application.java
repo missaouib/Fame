@@ -5,13 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-
-/**
- * Spring boot
- *
- * @author zzzzbw
- * @since 2017/7/5.
- */
 @SpringBootApplication
 @EnableAsync
 @EnableTransactionManagement

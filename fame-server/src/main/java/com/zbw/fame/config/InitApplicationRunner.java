@@ -63,6 +63,7 @@ public class InitApplicationRunner implements ApplicationRunner {
     @Transactional(rollbackFor = Throwable.class)
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        log.info("_________________________________________________________________________________");
         log.info("Initializing Fame after springboot loading completed...");
         long startTime = System.currentTimeMillis();
 
@@ -74,6 +75,7 @@ public class InitApplicationRunner implements ApplicationRunner {
         initDispatcherServlet();
 
         log.info("Fame initialization in {}ms", (System.currentTimeMillis() - startTime));
+        log.info("_________________________________________________________________________________");
     }
 
     /**
