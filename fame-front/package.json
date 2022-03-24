@@ -1,8 +1,8 @@
 {
   "name": "fame-front",
   "version": "1.0.0",
-  "description": "The front of Fame blog",
-  "author": "Zzzzbw",
+  "description": "The front of devops blog",
+  "author": "Brahim MISSAOUI",
   "private": true,
   "scripts": {
     "dev": "nuxt",

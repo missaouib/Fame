@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: ./fame-docker/fame-nginx/nginx-Dockerfile
     environment:
-      TZ: Asia/Shanghai
+      TZ: Europe/Paris
     ports:
     - "80:80"
     volumes:
@@ -27,7 +27,7 @@ services:
       MYSQL_DATABASE: fame
       MYSQL_ROOT_PASSWORD: root
       MYSQL_ROOT_HOST: '%'
-      TZ: Asia/Shanghai
+      TZ: Europe/Paris
     expose:
     - "3306"
     volumes:
@@ -41,14 +41,14 @@ services:
       dockerfile: ./fame-docker/fame-server-Dockerfile
     working_dir: /app
     environment:
-      TZ: Asia/Shanghai
+      TZ: Europe/Paris
     volumes:
     - ./fame-server:/app
     - ~/.m2:/root/.m2
     - ~/.fame/logs/server:/app/log
     - ~/.fame/upload:/root/.fame/upload
     expose:
-    - "9090"
+    - "9091"
     command: mvn clean spring-boot:run -Dspring-boot.run.profiles=docker -Dmaven.test.skip=true
     depends_on:
     - fame-mysql
@@ -60,7 +60,7 @@ services:
       context: ./
       dockerfile: ./fame-docker/fame-admin/fame-admin-Dockerfile
     environment:
-      TZ: Asia/Shanghai
+      TZ: Europe/Paris
     expose:
     - "3001"
     restart: always
@@ -71,7 +71,7 @@ services:
       context: ./
       dockerfile: ./fame-docker/fame-front-Dockerfile
     environment:
-      TZ: Asia/Shanghai
+      TZ: Europe/Paris
     expose:
     - "3000"
     restart: always

@@ -4,9 +4,8 @@ import defaultConfig from './config/default-config'
 
 // noinspection JSAnnotator
 export default {
-  /*
-   ** Headers of the page
-   */
+
+
   head: {
     title: defaultConfig.meta_title,
     titleTemplate: '%s - Fame',
@@ -74,6 +73,10 @@ export default {
   ],
   router: {
     linkActiveClass: 'active',
+	base:"/blog"
+  },
+  static:{
+    prefix: true
   },
   /*
    ** Customize the progress bar color

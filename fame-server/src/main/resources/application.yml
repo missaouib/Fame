@@ -1,4 +1,3 @@
-#端口号
 server:
   port: 9091
 spring:
@@ -11,7 +10,7 @@ spring:
           starttls:
             enable: true
             required: true
-  #默认properties
+  #Default properties
   profiles:
     active: dev
   jackson:

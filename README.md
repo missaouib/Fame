@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-    <a href="https://www.travis-ci.org/zzzzbw/Fame/"><img src="https://travis-ci.org/zzzzbw/Fame.svg?branch=master"></a>
-    <a href="https://codebeat.co/projects/github-com-zzzzbw-fame-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7f186f0f-f42c-4a96-b74b-84fa5294ccc8" /></a>
+    <a href="https://www.travis-ci.org/zzzzbw/Fame/"><img src="https://travis-ci.org/zzzzbw/Fame.svg?branch=master"/></a>
+    <a href="https://codebeat.co/projects/github-com-zzzzbw-fame-master"><img alt="codebeat badge" src="https://codebeat.co/badges/7f186f0f-f42c -4a96-b74b-84fa5294ccc8" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/zzzzbw/Fame.svg"></a>
     <a alt="spring boot"><img src="https://img.shields.io/badge/spring%20boot-2.4.1-yellow.svg"/></a>
     <a alt="Maven"><img src="https://img.shields.io/badge/maven-v3.3.9-red.svg"></a>
@@ -16,20 +16,20 @@
     <a alt="docker-compose"><img src="https://img.shields.io/badge/docker--compose-1.22.0-lightgrey.svg"></a>
 </p>
 
-* 基于`node` `java` `spring-boot` `vue` `nuxt` 开发的博客系统
-* 支持传统手动部署和`docker`部署
-* 功能精简但齐全，界面简洁却美观，满足个人博客的日常使用要求
-* 适合当做`'Javaer'`,`'Vuer'`的练手学习项目，也适合`'跨界开发'`做新技术涉猎的参考
-* 项目会持续更新，如果有不完善的地方，欢迎指出
+* Blog system based on `node` `java` `spring-boot` `vue` `nuxt`
+* Support traditional manual deployment and `docker` deployment
+* The functions are concise but complete, the interface is simple but beautiful, and it meets the daily use requirements of personal blogs
+* It is suitable as a `'Javaer'`, `'Vuer'` practice learning project, and it is also suitable for `'cross-border development'` as a reference for dabbling in new technologies
+* The project will continue to be updated, if there are any imperfections, please point out
 
-> 演示站点: [https://zzzzbw.cn](https://zzzzbw.cn)
+> Demo site: [https://zzzzbw.cn](https://zzzzbw.cn)
 
 
-### 部署方式
+### Deployment method
 
-请看[部署文档](https://zzzzbw.github.io/Fame/)
+Please see [Deployment Documentation](https://zzzzbw.github.io/Fame/)
 
-### 部分界面
+### Part of the interface
 
 ![](https://raw.githubusercontent.com/zzzzbw/blog_source/master/images/FameDocker/screely-1628956587851.png)
 

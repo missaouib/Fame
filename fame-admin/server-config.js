@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production'
 
-const devUrl = 'http://localhost:9090/'
+const devUrl = 'http://localhost:9091/'
 const prodUrl = '/'
 const devFrontUrl = 'http://localhost:3000/'
 const prodFrontUrl = '/'

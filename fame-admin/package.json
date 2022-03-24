@@ -1,8 +1,8 @@
 {
   "name": "fame-admin",
   "version": "1.0.0",
-  "description": "The admin of Fame blog",
-  "author": "Zzzzbw",
+  "description": "The admin of the devops blog",
+  "author": "Brahim MISSAOUI",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
